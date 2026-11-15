@@ -1,0 +1,10 @@
+DIEL_POS COMPLETE STARTER
+
+Recommended use:
+1. Make a backup of your current DIEL_POS folder.
+2. Extract this archive.
+3. Copy the files and src folder into your existing DIEL_POS folder, replacing files with the same names.
+4. Do not copy node_modules or .expo from the old folder; keep them local or remove them before npm install if dependencies become inconsistent.
+5. Run npm install, then npx expo install expo-sqlite, then npx expo start -c.
+
+The root-level old files such as database.js, materialsSeed.js, HomeScreen.js and AppNavigator.js are not used by this structure. Do not delete them until the new project starts successfully; they can be removed after verification.
